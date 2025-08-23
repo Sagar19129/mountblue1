@@ -1,5 +1,5 @@
 Our project’s struggling with speed and growth because everything’s stuck together in one big lump. Service-Oriented Architecture (SOA) is a way to split it into smaller, separate pieces called services. Each piece does one job—like payments, reports, or logins—and they talk to each other with simple rules (APIs). This could help us grow better, fix slowdowns, and build stuff faster. But it also brings new stuff to handle, like keeping all the pieces in check and syncing data.
-2) What’s Going Wrong Now
+1) What’s Going Wrong Now
 Our system is one huge block (a monolith). When it gets busy, everything slows down.
 It leans on one shared database, which clogs things up.
 Adding new stuff or fixing bugs is slow and tricky.
@@ -8,7 +8,7 @@ What we want:
 Make it faster and more reliable.
 Boost only the busy parts.
 Keep it easy to update and grow.
-3) What’s SOA All About?
+2) What’s SOA All About?
 SOA means breaking the system into little independent services. Each one:
 Handles its own job and data.
 Chats with others using APIs or messages.
@@ -17,20 +17,20 @@ For example:
 A Payment Service deals with payments.
 A User Service handles accounts and logins.
 A Report Service makes reports.
-4) How SOA Can Help Us
+3) How SOA Can Help Us
 Growth: We can upgrade just the busy parts, not everything.
 Speed: Tune each piece to run better on its own.
 Quick Work: Teams can work on different parts at once.
 Toughness: If one part fails, the rest keep going.
-5) Things to Watch Out For
+4) Things to Watch Out For
 Tricky Stuff: More pieces mean more to manage.
 Chat Delays: Talking over the network adds a little lag.
 Data Sync: We need to keep info matching across everything.
 Tracking: We’ll need good logs and dashboards.
-6) Our Plan
+5) Our Plan
 Pick a spot to start—something like reporting or payments that’s causing trouble.
 Set up the basics: an entry point (API gateway), logs, tracking, and a way for services to find each other.
 Test it out—build and launch the first service, see if it helps.
 Grow slowly—once it works, move other parts over bit by bit.
-7) Final Thoughts
+6) Final Thoughts
 SOA isn’t a magic fix, but it can help with our speed and growth problems. If we start small with one service, set up good tracking, and learn as we go, it’ll make our system faster, tougher, and easier to grow over time.

@@ -1,5 +1,5 @@
-# Question 1
-# What is the Feynman Technique? Explain in 1 line.
+#Question 1
+What is the Feynman Technique? Explain in 1 line.
 
 The Feynman Technique is a simple four-step learning method where you write down a concept, 
 explain it in plain language as if teaching a child, identify gaps in your understanding, and refine your explanation until it’s crystal clear.
